@@ -1,0 +1,97 @@
+<!doctype html>
+<html data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.5.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+  #img1:hover{
+content: url("https://i.ibb.co/MfL5QNw/heart-1.png");
+  }
+</style>
+
+</head>
+<body>
+
+
+<section class="grid grid-cols-1 xl:grid-cols-2 px-3 md:px-24 py-10">
+<div class="col flex flex-col gap-3 ">
+<div id="mainImg">
+<img src="https://i.ibb.co/gDwzMss/DTX-LTD-649-2000x-105ca834-6dac-459a-87ca-185e2f8cd6d8-1728x.jpg" class="border rounded-xl" alt="">
+</div>
+<div class="grid grid-cols-3 gap-3">
+<div class="col" id="scooterImg1"><img src="https://i.ibb.co/gDwzMss/DTX-LTD-649-2000x-105ca834-6dac-459a-87ca-185e2f8cd6d8-1728x.jpg" class="border rounded-xl hover:shadow-lg focus:shadow-lg ease-in-out delay-150 duration-150" alt=""></div>
+<div class="col" id="scooterImg2"><img src="https://i.ibb.co/Qc7R2Gr/DTX-LTD-658-2000x-08e6a736-11bd-45e9-9102-5ff16bc356b4-1512x.jpg" class="border rounded-xl hover:shadow-lg ease-in-out delay-150 duration-150 focus:shadow-lg" alt=""></div>
+<div class="col" id="scooterImg3"><img src="https://i.ibb.co/Y7GX3rj/DTX-LTD-659-2000x-8b868df4-7642-46d6-8020-d5d7c398ff2d-1512x.jpg" class="border rounded-xl hover:shadow-lg ease-in-out delay-150 duration-150 focus:shadow-lg" alt=""></div>
+</div>
+</div>
+
+<div class="col pl-0 md:pl-20">
+  <h1 class="font-bold text-xl pt-12 md:pt-0 pb-6">Dualtron X Limited Electric Scooter</h1>
+  <h1 class="font-bold text-blue-600 text-2xl mb-6">$190.00</h1>
+  <div class="flex gap-1 mb-6">
+    <img class="w-[20px]" src="https://i.ibb.co/313qWpp/10198068745.png" alt="">
+    <img class="w-[20px]" src="https://i.ibb.co/313qWpp/10198068745.png" alt="">
+    <img class="w-[20px]" src="https://i.ibb.co/313qWpp/10198068745.png" alt="">
+    <img class="w-[20px]" src="https://i.ibb.co/313qWpp/10198068745.png" alt="">
+    <img class="w-[20px]" src="https://i.ibb.co/313qWpp/10198068745.png" alt="">
+  </div>
+  <p class="mb-6 text-slate-500 text-[14px] font-[400]">IronCaptivate with this shirt’s versatile urban look that works as well at happy hour as it does in the back yard. The real mother of pearl buttons and embroidered crocodile complete its elegant appeal.Lorem ipsum...</p>
+  <h6 class="text-[11px] text-black font-bold mb-3">COLOR: BLACK</h6>
+  <div class="flex gap-4 mb-8">
+    <button id="blackbtn" class="w-[35px] h-[35px] bg-black rounded-full border-[3px] border-white ring-2 ring-slate-200 hover:ring-blue-500"></button>
+    <button id="greenBtn" class="w-[35px] h-[35px] bg-lime-400 rounded-full border-[3px] border-white ring-2 ring-slate-200 hover:ring-blue-500"></button>
+    <button id="redBtn" class="w-[35px] h-[35px] bg-red-500 rounded-full border-[3px] border-white ring-2 ring-slate-200 hover:ring-blue-500"></button>
+  </div>
+  <h6 class="text-[11px] text-black font-bold mb-3">SIZE: 250W</h6>
+  <div class="flex gap-4 mb-6 font-bold">
+    <button id="wattBtn250"
+    class="px-4 py-3 text-[11px]  border rounded hover:border-black text-white bg-black">250W</button>
+    <button id="wattBtn550" 
+    class="px-4 py-3 text-[11px] text-black rounded border hover:border-black">550W</button>
+    <button  id="wattBtn650" 
+    class="px-4 py-3 text-[11px] text-black rounded border hover:border-black">650W</button>
+  </div>
+  <h6 class="text-[11px] text-black font-bold mb-3">QUANTITY:</h6>
+  <div class="flex justify-between mb-6">
+   <div class="flex">
+    <button id="minusItem" class=" font-bold text-xl border py-2 px-2">-</button>
+    <div id="totalItem" class=" font-bold text-xl border py-2 px-5 bg-slate-50">1</div>
+    <button id="plusItem" class=" font-bold text-xl border py-2 px-[5px]">+</button>
+   </div>
+
+   <button id="wishlistBtn" class="flex justify-center items-center gap-4 ">
+    <img id="img1" class="w-5 h-5" src="https://i.ibb.co/S69SpkB/heart.png" alt="">
+    <h6 class="text-sm text-black hover:text-red-500 font-medium">Add To Wishlist</h6>
+  </button>
+  </div>
+  
+
+  <button class="flex justify-center items-center gap-3 bg-blue-500 hover:bg-blue-600 text-white w-full py-3 rounded mb-3  ease-in-out delay-150 duration-300">
+    <img class="w-6" src="https://i.ibb.co/jZnhVFN/shopping-cart.png" alt="">
+    <div class="font-medium">Add To Cart</div>
+  </button>
+  <button class="flex justify-center items-center gap-3 bg-black hover:bg-blue-500 ease-in-out delay-150 duration-300 text-white w-full py-3 rounded mb-10">
+    <div class="font-medium">Buy It Now</div>
+  </button>
+  <div class="flex gap-3 justify-start items-center mb-4">
+    <img class="w-4" src="https://i.ibb.co/ZL7CJ32/clock.png" alt="">
+    <h6 class=" text-slate-500 text-[14px] font-[400]">Orders ship within 5 to 10 business days.</h6>
+  </div>
+  <div class="flex gap-3 justify-start items-center">
+    <img class="w-5" src="https://i.ibb.co/TqZh1dJ/truck.png" alt="">
+    <h6 class=" text-slate-500 text-[14px] font-[400]">Hoorey ! This item ships free to the US</h6>
+  </div>
+</div> 
+</section>
+ 
+
+
+
+<script src="./app.js"></script>
+</body>
+</html>
